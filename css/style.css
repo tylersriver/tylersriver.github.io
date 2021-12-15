@@ -1,6 +1,47 @@
-.bgimage {
-  background-image: url('../images/asf_logo.png');
-  background-position: center center;
-  background-size: cover;
-  height: 200px;
-}  
+body {
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,pingfang sc,STXihei,华文细黑,microsoft yahei,微软雅黑,SimSun,宋体,Heiti,黑体,sans-serif;
+  margin: auto;
+  padding: 18px;
+  max-width: 600px;
+  font-size: 18px;
+  text-align: left;
+  background-color: white;
+  position: relative;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.centered {
+  text-align: center;;
+}
+
+nav a, footer div a{
+	margin:0px 5px;
+}
+
+a {
+  color: black;
+}
+
+nav {
+  display: block;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  display: block;
+}
+
+img {
+  border-radius: 50%;
+  width: 10rem;
+}
