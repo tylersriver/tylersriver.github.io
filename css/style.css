@@ -9,6 +9,19 @@ body {
   position: relative;
 }
 
+a {
+  color: black;
+}
+
+.dark a {
+  color: white;
+}
+
+.dark {
+  color: #f9f9f9;
+  background-color: #222;
+}
+
 .about {
   margin-top: 100px;
 }
@@ -21,9 +34,7 @@ nav a, footer div a{
 	margin:0px 5px;
 }
 
-a {
-  color: black;
-}
+
 
 nav {
   display: block;
@@ -44,4 +55,18 @@ footer {
 img {
   border-radius: 50%;
   width: 10rem;
+}
+
+.bottom-right {
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 100;
+  position: fixed;
+  font-size: 1em;
+}
+
+.bottom-right a:hover, .bottom-right a:focus {
+  color: #1565c0;
+  opacity: 100%;
+  cursor: pointer;
 }
