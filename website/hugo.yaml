@@ -51,7 +51,7 @@ params:
     subtitle: "Software Engineer"
     imageUrl: "https://avatars.githubusercontent.com/u/17327172?v=4"
     buttons:
-      - name: Archives
+      - name: Archive
         url: archives
       - name: Tags
         url: tags
