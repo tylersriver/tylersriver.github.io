@@ -1,0 +1,62 @@
+baseURL: https://tylersriver.github.io/
+languageCode: en-us
+title: Tyler Sriver
+theme: "PaperMod"
+paginate: 5
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  ShowBreadCrumbs: true
+  author: Tyler Sriver
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  profileMode:
+    enabled: true
+    subtitle: "Software Engineer"
+    imageUrl: "https://avatars.githubusercontent.com/u/17327172?v=4"
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+  socialIcons: # optional
+    - name: github
+      url: "https://github.com/tylersriver"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/tylersriver"
