@@ -5,21 +5,22 @@ body {
     max-width: 600px;
     font-size: 18px;
     text-align: left;
-    background-color: white;
+    background-color: #fff;
     position: relative;
+    color: rgba(28, 27, 26, 0.92);
 }
 
 a {
-    color: black;
+    color: rgba(28, 27, 26, 0.92);
 }
 
 .dark a {
-    color: white;
+    color: hsla(var(--md-hue), 15%, 90%, 0.82);
 }
 
 .dark {
-    color: #f9f9f9;
-    background-color: #222;
+    color: hsla(var(--md-hue), 15%, 90%, 0.82);
+    background-color: hsla(var(--md-hue), 15%, 5%, 1);
 }
 
 .about {
