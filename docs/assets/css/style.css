@@ -1,4 +1,5 @@
 body {
+    --md-hue: 225deg;
     font-family: "Commit Mono";
     margin: auto;
     padding: 18px;
