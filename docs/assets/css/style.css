@@ -1,5 +1,9 @@
 body {
+    --absurd-gold: #8a6a1d;
+    --absurd-gold-strong: #6f5311;
+    --md-accent-fg-color: var(--absurd-gold-strong);
     --md-hue: 225deg;
+    --md-typeset-a-color: var(--absurd-gold);
     font-family: "Commit Mono";
     margin: auto;
     padding: 18px;
@@ -9,6 +13,52 @@ body {
     background-color: #fff;
     position: relative;
     color: rgba(28, 27, 26, 0.92);
+}
+
+.code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid var(--absurd-gold-strong);
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+.code-copy {
+    float: right;
+    cursor: pointer;
+}
+
+.code-copy:hover {
+    color: black;
+}
+
+article {
+    margin-top: 1em;
+}
+
+article h3 {
+    margin: 1.6em 0 0.8em;
+}
+
+article h1 {
+    margin: 0 0 1.25em;
+}
+
+article h2 {
+    margin: 1.6em 0 0.64em;
+}
+
+article a {
+    color: var(--md-typeset-a-color, var(--md-accent-fg-color));
 }
 
 a {
