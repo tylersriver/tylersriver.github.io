@@ -41,6 +41,10 @@ body {
     color: black;
 }
 
+.u {
+    text-decoration: underline;
+}
+
 article {
     margin-top: 1em;
 }
