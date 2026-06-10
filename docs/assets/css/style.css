@@ -87,6 +87,7 @@ a {
 }
 
 nav a,
+h1 a,
 footer div a {
     margin: 0px 5px;
 }
@@ -116,6 +117,13 @@ img {
     width: 10rem;
 }
 
+.bottom {
+    bottom: 1.5rem;
+    z-index: 100;
+    position: fixed;
+    font-size: 1em;
+}
+
 .bottom-right {
     bottom: 1.5rem;
     right: 1.5rem;
@@ -124,8 +132,20 @@ img {
     font-size: 1em;
 }
 
+.bottom-left {
+    bottom: 1.5rem;
+    left: 1.5rem;
+    z-index: 100;
+    position: fixed;
+    font-size: 1em;
+}
+
+.hover-blue a:hover,
+.hover-blue a:focus,
 .bottom-right a:hover,
-.bottom-right a:focus {
+.bottom-right a:focus,
+.bottom-left a:hover,
+.bottom-left a:focus {
     color: #1565c0;
     opacity: 100%;
     cursor: pointer;
